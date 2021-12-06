@@ -9,23 +9,7 @@
 
 // Now run the file again (using `node index.js`);
 
-let myCollection = [
-  {
-    name: "Duck Hachi",
-    count: 1,
-    whatILike: "Good Listener",
-  },
-  {
-    name: "Duck Where's Wally",
-    count: 2,
-    whatILike: "I cannot find him",
-  },
-  {
-    name: "Duck Rocky",
-    count: 1,
-    whatILike: "Never gives up",
-  },
-];
+import myCollection from "./collection.js"
 
 function describeItem(myCollection) {
     if (myCollection.count === 1) {
